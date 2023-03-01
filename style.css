@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("./bg.png");
+    background-size: cover;
+}
+div{
+    display: inline-block;
+} 
+
+/* --------------outer div------------ */
+.outerDiv{
+    width: 100vw;
+    position: relative;
+    line-height: 15vh;
+}
+
+.outerEmoji{
+    width: 10vh;
+    display: inline-block;
+}
+
+.outerName{
+    display: inline-block;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0vh;
+    left: 4.5vw;
+}
+
+.outerDiv .heading{
+    margin-bottom: 10vh;
+}
+
+.outerDiv .heading p{
+    position: absolute;
+    left: 25vw;
+    top: 1vh;
+    font-size: 3rem;
+}
+
+.outerDiv .heading p span{
+    color: #eecc0a;
+}
+
+/* --------------outer div ending-------------- */
+
+.bg{
+    background-image: linear-gradient(to bottom,#353543 50%,#282934 50%);
+     width: 80vw; 
+     height: 150vh;  
+    /* background-size: cover; */
+    margin-left: 9vw;
+    clear: right;
+    display: block;
+    position: absolute;
+}
+
+.bg .all{
+    padding: 2.5vw 7vw 0 7vw ;
+    position: relative;
+}
+
+.all .starting{
+    width: 65vw;
+    height: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all .starting .name{
+    /* position: absolute; */
+    width: 15vw;
+}
+
+.starting .name .startingEmoji{
+    width: 4vh;
+    display: inline-block;
+}
+
+.starting .name .startingName{
+    display: inline-block;
+}
+
+.starting .navbar ul{
+    display: inline-block;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.starting .navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.starting .navbar ul li a{
+    color: #b19a9a;
+    text-decoration: none;
+}
+
+ul li #home{
+    text-decoration: underline;
+    color: #e3e3e3;
+}
+
+.navBarIcons{
+    width: 7vw;
+    height: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #ebf4c2; */
+}
+
+.fa-circle-down{
+    color: #dcbff3;   
+}
+
+.fa-linkedin-in{
+    color: #dcbff3;   
+}
+
+.fa-bars-staggered{
+    color: #dcbff3;     
+} 
+/* -------------second div main image wali--------------- */
+
+.all .second{
+    display: inline-block;
+    position: relative;
+}
+
+.all .imWalaPara{
+    margin-top: 10vh;
+    margin-left: 0;
+}
+
+.second .imWalaPara .im1{
+    display: inline-block;
+    color: #6c6c73;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.second .imWalaPara .im2{
+    display: block;
+    font-size: 4rem;
+    letter-spacing: .3vw;
+    font-weight: 700;
+    color: #ece3ec;
+    position: relative;
+    z-index: 2;
+}
+
+.im2::before{
+    content: "";
+    border-bottom: 5px solid #eecc0a;
+    position: absolute;
+    width: 35%;
+    bottom: -1.2vw;
+}
+
+.second .imWalaPara .im3{
+    width: 14vw;
+    font-size: .8rem;
+    line-height: 3vh;
+    color: #82828b;
+    margin-top: 6vh;
+}
+
+.mainImage .circle{
+    position: absolute;
+    background-color: #2d2d39;
+    width: 22vw;
+    height: 22vw;
+    border-radius: 50%;
+    top: 4vh;
+    left: 25vw;
+    z-index: 1;
+}
+
+.mainImage .man{
+    width: 35vw;
+    position: absolute;
+    top: 8vh;
+    left: 23vw;
+    z-index: 3;
+}
+.servicesKaPara{
+    width: 19vw;
+    position: absolute;
+    top: 6vw;
+    left: 45vw;
+    z-index: 5;
+    font-size: 1rem;
+    letter-spacing: 0.1vw;
+    line-height: 3.5vh;
+    color: #d9ced9;
+}
+
+.show{
+    position: absolute;
+    left: 45vw;
+    top: 35vh;
+    width: 10vw;
+    z-index: 3;
+    color: #e2b217;
+}
+
+.another{
+    position: absolute;
+    left: 52vw;
+    top: 35vh;
+    width: 10vw;
+    z-index: 3;
+    color: #e2b217;
+}
+
+.fa-facebook{
+    position: absolute;
+    left: 45vw;
+    top: 40vh;
+    width: 10vw;
+    z-index: 3;
+    color: #e2b217;
+}
+
+.fa-square-twitter{
+    position: absolute;
+    left: 48vw;
+    top: 40vh;
+    width: 10vw;
+    z-index: 3;
+    color: #e2b217;
+}
+
+.fa-circle-user{
+    position: absolute;
+    left: 51vw;
+    top: 40vh;
+    width: 10vw;
+    z-index: 3;
+    color: #e2b217;
+}
+
+.fa-pinterest{
+    position: absolute;
+    left: 54vw;
+    top: 40vh;
+    width: 10vw;
+    z-index: 3;
+    color: #e2b217;
+}
+
+/* -------------half of the all div------------- */
+
+.middleOne{
+    position: absolute;
+    top: 68vh;
+    height: 13vh;
+    width: 65vw;
+    background-color: #3d3d4d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 6;
+}
+
+.middleOne .child1{
+    background-color: #353542; 
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta{
+    width: 10vw;
+}
+
+.middleOne .child2{
+    background-color: #353542; 
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    width: 10vw;
+}
+.middleOne .child3{
+    background-color: #353542; 
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin{
+    width: 10vw;
+}
+.middleOne .child4{
+    background-color: #353542; 
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slack{
+    width: 10vw;
+}
+
+.lastParentDiv{
+    position: absolute;
+    top: 95vh;
+    left: 7.5vw;
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.last{
+    width: 25vw;
+}
+
+.denser{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fbebf6;
+}
+
+.lighter{
+    color: #b6b6c4;
+    width: 18vw;
+    font-size: .8rem;
+    margin-top: 2vh;
+    line-height: 3.5vh;
+}
+
+.numbers{
+    margin-top: 2vh;
+    width: 25vw;
+}
+
+.nos{
+    color: #f5be0b;
+    font-size: 2rem;
+}
+
+.projectDescription{
+    font-size: 0.6rem;
+    color: #82828b;
+}
+.one{
+    padding-bottom: 2vh;
+    padding-right: 8vw;
+}
+
+.two{
+    padding-bottom: 2vh;
+    color: #f5be0b;
+}
+
+.three{
+    padding-right: 8vw;
+    color: #f5be0b;
+}
+
+.four{
+    color: #f5be0b;
+}
+
+.ending {
+    margin-top: -3vh;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picKaImage{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 8vw;
+    height: 10vh;
+    display: inline-block;
+}
+
+.imagesKaPara{
+    display: inline-block;
+    margin-left: 1vw;
+    color: #8d9997;
+}
+
+.imagesKaSpan{
+    color: #61837f;
+    font-size: .5rem;
+}
+
+.pehla{
+    position: relative;
+}
+
+.doosra{
+    position: relative;
+}
+
+.pehla::before{
+    content: "";
+    border-bottom: 1px solid #6b7170;
+    position: absolute;
+    width: 100%;
+    bottom: -5vh;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    color: #e2b217;
+    right: 0;
+}
+
